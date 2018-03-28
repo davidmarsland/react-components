@@ -258,3 +258,157 @@ npm start
 
 ---
 
+---
+### Thinking In React
+<a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">https://reactjs.org/docs/thinking-in-react.html</a>
+
+---
+### Lab: Simple Table in React
+#### Implement a simple table in React
+* Generate project in labs directory
+
+  ```
+  create-react-app simpletable
+  ```
+* In src directory, delete App.*
+* Start with this data from Thinking In React and declare PRODUCTS in src/index.js
+
+```
+const PRODUCTS = [
+  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+];
+```
+
+* In src directory, create file SimpleTable.jsx
+
+  ```
+  import React from 'react';
+
+  class SimpleTable extends React.Component {
+    render() {
+      return (
+        <table>
+          <tbody>
+          </tbody>
+        </table>
+      )
+    }
+  }
+
+  export default SimpleTable;
+  ```
+
+* Inside the tbody tags use an array and map() this.props.products to populate the name and price for each product
+
+  ```
+  <tr><td>name</td><td>price</td></tr>
+  ```
+
+<br>Similar to this:
+
+  ```
+    <ul>
+      {this.props.items.map((value, index) => {
+        return <li key={index}>{value}</li>
+      })}
+    </ul>
+  ```
+
+* Modify index.js to render SimpleTable instead of App and pass in products={PRODUCTS} as a prop.
+* Run app in browser
+
+```
+npm start
+```
+
+---
+### Setting Up Your React Dev Environment Easily 
+* Create React App simplifies setup 
+* <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
+* <a target="_ref" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md">Create React App Docs</a>
+
+---
+### Lab: Thinking In React Filterable Product Table Catalog
+* Read the <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Tutorial</a> up to Step 2
+* Generate project 
+
+  ```
+  create-react-app catalog
+  ```
+
+* Modularize the code in 
+<a target="_ref" href="https://codepen.io/gaearon/pen/BwWzwm">Step 2: Build A Static Version in React</a>
+
+* In src directory, delete App.*
+* Start with this data from Thinking In React and declare PRODUCTS in src/index.js
+
+```
+const PRODUCTS = [
+  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+];
+```
+
+* In src directory, create jsx files for each class and add import and export like this:
+
+  `ProductCategoryRow.jsx`
+
+  ```
+  import React from 'react';
+
+  class ProductCategoryRow extends React.Component {
+  ...
+  export default ProductCategoryRow;
+  ```
+
+* Import appropriate dependencies for each file like this:
+
+  ```
+  import React from 'react';
+  import ProductCategoryRow from './ProductCategoryRow';
+  import ProductRow from './ProductRow';
+
+  class ProductTable extends React.Component ...
+  ```
+* Modify index.js to import FilterableProductTable then render.  <br>
+Note that id is 'root', not 'container'
+
+  ```
+  ReactDOM.render(
+    <FilterableProductTable products={PRODUCTS} />,
+    document.getElementById('root')
+  );
+  ```
+* Run app in browser
+
+  ```
+  npm start
+  ```
+---
+### Lab: Add State to Filterable Product Table
+* Read all of <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-3-identify-the-minimal-but-complete-representation-of-ui-state">Step 3:  Identify The Minimal (but complete) Representation Of UI State</a>
+* Read <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-4-identify-where-your-state-should-live">Step 4: Identify Where Your State Should Live</a>
+<br>and modify the code as described to add state
+* Complete <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-5-add-inverse-data-flow">Step 5: Add Inverse Data Flow</a>
+* Optional Challenge: Create a Cart component and add selected products to the cart
+
+  ```
+  handleAddToCart(product) {
+      this.setState({
+        cart: this.state.cart.concat(product)  
+        // returns a new array
+      })
+    }
+  ```
+* Optional Challenge: use your own test data for real shopping! 
+
+---
