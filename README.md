@@ -1,6 +1,4 @@
-# react-components
-
-### Welcome to React Training
+### Welcome to *FastTrack to React Training*
 #### Instructor: David Marsland
 <br>
 <img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
@@ -10,9 +8,9 @@
 <a target="_git_react" href="https://davidmarsland.github.io/react-components/">https://davidmarsland.github.io/react-components/</a>
 
 ---
-### React Component Development Fundamentals Training
+### FastTrack to React Component Development Training
 
-*The React Component Development Fundamentals* class teaches the essentials of building UI components with React. 
+*The FastTrack to React Component Development Training* class teaches the essentials of building UI components with React. 
 
 The course dives deep into the core workings of React, and explores the practical aspects of developing React projects. 
 
