@@ -147,6 +147,10 @@ Web Development since the Dawn of the Web <br>
 * <a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/#/?_k=8f5q6o">The (R)Evolution of Web Development by Mark Erikson</a>
 
 ---
+### Modern Web Development with React and Redux
+<a target="_isquared" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/0">Modern Web Development with React and Redux by Mark Erikson</a>
+
+---
 ### Naming Conventions
 
 * React doesn't enforce naming conventions
@@ -255,8 +259,6 @@ const PRODUCTS = [
 ```
 npm start
 ```
-
----
 
 ---
 ### Thinking In React
