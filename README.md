@@ -147,7 +147,10 @@ Web Development since the Dawn of the Web <br>
 * <a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/#/?_k=8f5q6o">The (R)Evolution of Web Development by Mark Erikson</a>
 
 ---
-### Modern Web Development with React and Redux
+### React to the Future
+
+<a target="_reacttothefuture" href="http://elijahmanor.com/talks/react-to-the-future/dist/#/slide/0/0">React to the Future</a> by Elijah Manor
+
 <a target="_isquared" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/0">Modern Web Development with React and Redux by Mark Erikson</a>
 
 ---
@@ -170,7 +173,6 @@ git clone https://github.com/davidmarsland/react-labs/
 Then
 ```
 cd react-labs
-mkdir labs
 
 cd solutions
 cd catalog3cart
@@ -183,6 +185,12 @@ npm run start
 <a target="_ref" href="https://reactjs.org/tutorial/tutorial.html">Facebook React Tutorial</a>
 
 ---
+### Create React App Simpler Project Setup from Facebook
+
+<a target="_ref" href="https://github.com/facebook/create-react-app/blob/master/README.md#getting-started">Create React App: Getting Started</a>
+
+---
+
 
 ### Lab: Set Up React Dev Env and Create React App helloworld
 * Follow the steps in this tutorial to use Create React App for starter files
@@ -191,6 +199,12 @@ npm run start
   ```
   create-react-app helloworld
   ```
+  If you had permissions issues with global `install create-react-app -g`, then
+  ```
+  npx create-react-app helloworld
+  ```
+* <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/startercreatereactapp/build/">Starter Create React App Online</a>  
+* <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/helloworld/build/">Helloworld App Online</a>
 
 ---
 ### Thinking In React
@@ -395,6 +409,12 @@ Note that id is 'root', not 'container'
   ```
   npm start
   ```
+
+---
+### React to the Future: State
+
+<a target="_reacttothefuture" href="http://elijahmanor.com/talks/react-to-the-future/dist/#/slide/2/18">React to the Future: State</a> by Elijah Manor</a>
+
 ---
 ### Lab: Add State to Filterable Product Table
 * Read all of <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-3-identify-the-minimal-but-complete-representation-of-ui-state">Step 3:  Identify The Minimal (but complete) Representation Of UI State</a>
@@ -414,3 +434,5 @@ Note that id is 'root', not 'container'
 * Optional Challenge: use your own test data for real shopping! 
 
 ---
+
+
