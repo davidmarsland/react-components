@@ -151,7 +151,7 @@ Web Development since the Dawn of the Web <br>
 
 <a target="_reacttothefuture" href="http://elijahmanor.com/talks/react-to-the-future/dist/#/slide/0/0">React to the Future</a> by Elijah Manor
 
-<a target="_isquared" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/0">Modern Web Development with React and Redux by Mark Erikson</a>
+<a target="_isquared" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/0">Modern Web Development with React and Redux</a> by Mark Erikson
 
 ---
 ### Naming Conventions
@@ -417,10 +417,16 @@ Note that id is 'root', not 'container'
 
 ---
 ### Lab: Add State to Filterable Product Table
+
+#### Here's the app you're about to create: <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog2state/build/">Lab Solution Online</a>
+
 * Read all of <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-3-identify-the-minimal-but-complete-representation-of-ui-state">Step 3:  Identify The Minimal (but complete) Representation Of UI State</a>
 * Read <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-4-identify-where-your-state-should-live">Step 4: Identify Where Your State Should Live</a>
 <br>and modify the code as described to add state
 * Complete <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-5-add-inverse-data-flow">Step 5: Add Inverse Data Flow</a>
+
+---
+#### Optional Challenge: Add Cart
 * Optional Challenge: Create a Cart component and add selected products to the cart
 
   ```
@@ -431,8 +437,213 @@ Note that id is 'root', not 'container'
       })
     }
   ```
-* Optional Challenge: use your own test data for real shopping! 
+* Optional Challenge: use your own test data for real shopping!
+
+#### Optional Cart <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog3cartghp/build/">Lab Solution Online</a> 
 
 ---
+### Alternative Approach: Refactor to use Functional Components
+
+### React to the Future: Functional Components
+
+<a target="_reacttothefuture" href="http://elijahmanor.com/talks/react-to-the-future/dist/#/slide/2/4">React to the Future: Functional Components</a> by Elijah Manor</a>
+
+#### Here's the <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog4cartfunctional/build/">Lab Solution Refactored to Functional Components Online</a>  
+
+---
+### React to the Future: Component LifeCycle
+
+<a target="_reacttothefuture" href="http://elijahmanor.com/talks/react-to-the-future/dist/#/slide/2/28">React to the Future: Component LifeCycle</a> by Elijah Manor</a>
+
+---
+### InnerHTML and XSS Attacks
+
+<a target="_ref" href="https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml">React DOM Elements: dangerouslySetInnerHTML</a>
+
+* `dangerouslySetInnerHTML` is React’s replacement for using `innerHTML` in the browser DOM
+* Setting HTML from code is risky because it’s easy to inadvertently expose your users to a <a target="_ref" href="https://en.wikipedia.org/wiki/Cross-site_scripting">cross-site scripting (XSS) attack</a>
+
+---
+### React Foundation Course Materials
+
+#### React Foundation by Azat Mardan
+<a target="_reactf" href="https://github.com/azat-co/react-foundation">
+https://github.com/azat-co/react-foundation</a>
+
+### Download zip or clone.
+
+---
+### Github Tutorials
+
+* <a target="_ref" href="https://try.github.io">CodeSchool Free tryGit Interactive Tutorial</a>
+* <a target="_ref" href="http://kbroman.org/github_tutorial/pages/init.html">Github Guide</a>
+
+---
+### Free Video Courses on Node University
+* <a target="_nodeu" href="https://node.university/courses/category/free">https://node.university/courses/category/free</a>
+
+---
+### This course includes material from Azat Mardan's React Foundation Course
+<a target="_react_foundation" href="https://node.university/p/react-foundation">https://node.university/p/react-foundation</a>
+
+---
+### React Quickly Book
+#### by Azat Mardan
+<a target="_react-quickly" href="https://livebook.manning.com/#!/book/react-quickly">React Quickly Livebook</a>
+
+---
+### React Foundation Course
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/README.md">Course Outline</a>
+
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-intro.md">Course Intro</a>
+
+
+---
+### CommonJS import/require module.exports vs. ES6 modules import/export
+
+* React Foundation Course uses Node CommonJS module
+* Why?  Can use same syntax with server-side Node and Client side
+* <a target="_ref" href="voidcanvas.com/import-vs-require/">voidcanvas.com/import-vs-require/</a>
+* <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/appendix-e/136">React Quickly Appendix E: ES6 Modules</a>
+> Azat Mardan wrote: "Personally, I find ES6 modules confusing. Yes, they’re more eloquent, but Node.js modules won’t change anytime soon. It’s better to have only one style for browser and server JavaScript, so I’ll stick with CommonJS/Node.js style for now. 
+
+> For more information and examples, see <a target="_ref" href="http://exploringjs.com/es6/ch_modules.html">http://exploringjs.com/es6/ch_modules.html</a>. And no matter what, 
+> write modular JavaScript!"
+
+---
+### React Foundation Course Modules
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md">Module 1 Hello React World</a>
+* <a target="_plunk" href="http://plnkr.co/edit/S2gjlc?p=preview">Changing the State example</a>
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-02.md">Module 2 Components</a>
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-03.md">Module 3 User Input</a>
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-04.md">Module 4 Advancing Components</a>
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">React Foundation Summary</a>
+
+---
+### React Foundation Course Labs
+* We'll only do the first labs here
+* Lab 1 Issues:
+Complete package.json:
+```
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "build-watch": "./node_modules/.bin/webpack -w"
+  },
+  "author": "",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "webpack": "1.13.3"
+  }
+}
+```
+```
+npm run build
+```
+```
+ERROR in Entry module not found: Error: Can't resolve 'babel' in 'C:\Users\david\git\react-training\react-labs\labs\react-project'
+BREAKING CHANGE: It's no longer allowed to omit the '-loader' suffix when using loaders.
+  You need to specify 'babel-loader' instead of 'babel'
+```
+  see <a target="_ref" href="https://webpack.js.org/guides/migrating/#automatic-loader-module-name-extension-removed">babel-loader migration</a>
+  
+
+---
+### More React and Redux Learning Resources
+
+* <a target="_ref" href="https://www.fullstackreact.com/30-days-of-react/">FullStack React 30 Days of React and Redux</a>
+
+* <a target="_ref" href="https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/">React Tutorial: Cloning Yelp</a>
+
+* <a target="_ref" href="https://survivejs.com/react/introduction/">Survive JS - Webpack and React Book</a>
+
+---
+### React Native Intro
+<a target="_ref" href="https://www.slideshare.net/ModusJesus/intro-to-react-native">Intro to React Native</a>
+
+---
+### Tools
+* <a target="_ref" href="https://codesandbox.io/s/62zvqom7kk">Code Sandbox</a>
+
+* <a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh">Zeit for deployment</a>
+
+* <a target="_ref" href="http://jsbin.com/mipesawapi/edit?js,output">JS Bin Online Editor</a>
+
+---
+### Github Tutorial
+* <a target="_ref" href="http://kbroman.org/github_tutorial/pages/init.html">Github tutorial</a>
+
+
+---
+### Resources to learn more
+* <a target="_ref" href="http://reactquickly.co/demos">http://reactquickly.co/demos</a>
+* <a target="_ref" href=" ">Review React Foundation Course Videos from Azat Mardan</a>
+<a target="_react-quickly" href="https://livebook.manning.com/#!/book/react-quickly">React Quickly Book by Azat Mardan: Livebook</a>
+* <a target="_ref" href=" ">React Quickly Summaries</a>
+
+---
+### React and Redux Resources
+
+* <a target="_ref" href="https://www.robinwieruch.de/tips-to-learn-react-redux/">Tips to learn React + Redux in 2018</a>
+
+---
+### Course Review
+### Course Objectives
+
+#### You should now be able to:
+
+ <input type="checkbox">  Describe React and the problem it solves
+ <br><input type="checkbox">  Configure a React development environment
+ <br><input type="checkbox">  Explore the basic architecture of a React component
+ <br><input type="checkbox">  Develop React components using JSX
+
+---
+### Course Outline and Topics
+
+ <br><input type="checkbox">  React Overview
+ <br><input type="checkbox">  Project Configuration with Babel and Webpack
+ <br><input type="checkbox">  Hello World React
+ <br><input type="checkbox">  Working with JSX
+ <br><input type="checkbox">  Component Props and Prop Validation
+ <br><input type="checkbox">  Displaying Lists of Data and Keys
+ <br><input type="checkbox">  Managing Component State
+ <br><input type="checkbox">  Configuring Event Handlers
+ <br><input type="checkbox">  Exploring Controlled and Uncontrolled Form Controls
+ <br><input type="checkbox">  Working with Refs
+ <br><input type="checkbox">  InnerHTML and XSS Attacks
+ <br><input type="checkbox">  Composing Components
+ <br><input type="checkbox">  Styling Components
+ <br><input type="checkbox">  Component Lifecycles
+ <br><input type="checkbox">  Stateless Component Functions
+
+---
+#### PluralSight React Skills Assessment
+15 minute test of your proficiency in React.  Should be able to take once with 1 redo.
+
+<a target="_ref" href="https://www.pluralsight.com/paths/react">https://www.pluralsight.com/paths/react</a>
+
+---
+### Congratulations, you are now all React Developers!
+
+<a target="_di" href="http://developintelligence.com"><img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
+</a>
+<br>
+<a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
+### Thanks, please fill out course eval now, your comments are greatly appreciated!
+
 
 
