@@ -5,7 +5,7 @@
 <br>
 <a target="_di" href="http://developintelligence.com">DevelopIntelligence.com</a>
 <br>
-<a target="_git_react" href="https://davidmarsland.github.io/react-components/">https://davidmarsland.github.io/react-components/</a>
+<a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
 
 ---
 ### FastTrack to React Component Development Training
@@ -52,6 +52,7 @@ Utilizing best practices, students build a real application utilizing the more i
 * Styling Components
 * Component Lifecycles
 * Stateless Component Functions
+* Testing React Components
 
 ---
 ### Lab Setup
@@ -93,7 +94,15 @@ npx install -g eslint
 ```
   <a target="_ref" href="https://docs.npmjs.com/getting-started/fixing-npm-permissions">Fixing NPM Permissions on Mac or Linux</a>
 
-We'll do more setup in class as needed.
+---
+#### Ensure that you have `git` installed
+In a terminal, powershell, or cmd prompt:
+```
+git --version
+```
+Should be greater than 2.0
+
+#### If needed, install `git` from <a target="_setup" href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>
 
 ---
 ### For this course you'll need either a Text Editor or an IDE.
@@ -561,6 +570,12 @@ BREAKING CHANGE: It's no longer allowed to omit the '-loader' suffix when using 
 ```
   see <a target="_ref" href="https://webpack.js.org/guides/migrating/#automatic-loader-module-name-extension-removed">babel-loader migration</a>
   
+---
+### Testing React Components
+
+<a target="_ref" href="https://facebook.github.io/jest/docs/en/tutorial-react.html">Facebook Tutorial:  Testing React Components with Jest</a>
+
+<a target="_ref" href="http://www.softwareishard.com/blog/testing/modern-react-component-testing-with-create-react-app-jest-and-enzyme/">Modern React Component Testing with create-react-app, Jest, and Enzyme</a>
 
 ---
 ### More React and Redux Learning Resources
@@ -629,6 +644,7 @@ BREAKING CHANGE: It's no longer allowed to omit the '-loader' suffix when using 
  <br><input type="checkbox">  Styling Components
  <br><input type="checkbox">  Component Lifecycles
  <br><input type="checkbox">  Stateless Component Functions
+ <br><input type="checkbox">  Testing React Components
 
 ---
 #### PluralSight React Skills Assessment
