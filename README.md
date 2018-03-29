@@ -1,5 +1,7 @@
 ### Welcome to FastTrack to React Training
 #### Instructor: David Marsland
+
+#### Macy's SF Schedule: 4/3-4/4/2018 9:30am – 4:30pm
 <br>
 <img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
 <br>
@@ -453,6 +455,12 @@ Note that id is 'root', not 'container'
 #### Optional Cart <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog3cartghp/build/">Lab Solution Online</a> 
 
 ---
+### Mid-class Survey
+
+Please let us know how class is going for you with this mid-class survey.  Comments are greatly appreciated!
+#### <a target="_ref" href="http://bit.ly/react4-3-18">http://bit.ly/react4-3-18</a>
+
+---
 ### Alternative Approach: Refactor to use Functional Components
 
 ### React to the Future: Functional Components
@@ -662,6 +670,8 @@ Modify `package.json` to specify 'babel-loader' instead of 'babel' see <a target
 <br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
 ### Thanks, please fill out course eval now, your comments are greatly appreciated!
+#### <a target="_ref" href="https://www.surveymonkey.com/r/KB5TRSS">https://www.surveymonkey.com/r/KB5TRSS</a>
+
 
 
 
