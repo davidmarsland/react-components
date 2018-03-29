@@ -424,7 +424,7 @@ Note that id is 'root', not 'container'
 ---
 ### React to the Future: State
 
-<a target="_reacttothefuture" href="http://elijahmanor.com/talks/react-to-the-future/dist/#/slide/2/18">React to the Future: State</a> by Elijah Manor</a>
+<a target="_reacttothefuture" href="http://elijahmanor.com/talks/react-to-the-future/dist/#/slide/2/18">React to the Future: State</a> by Elijah Manor
 
 ---
 ### Lab: Add State to Filterable Product Table
@@ -570,7 +570,7 @@ ERROR in Entry module not found: Error: Can't resolve 'babel' in 'C:\Users\david
 BREAKING CHANGE: It's no longer allowed to omit the '-loader' suffix when using loaders.
   You need to specify 'babel-loader' instead of 'babel'
 ```
-  see <a target="_ref" href="https://webpack.js.org/guides/migrating/#automatic-loader-module-name-extension-removed">babel-loader migration</a>
+Modify `package.json` to specify 'babel-loader' instead of 'babel' see <a target="_ref" href="https://webpack.js.org/guides/migrating/#automatic-loader-module-name-extension-removed">babel-loader migration</a>
   
 ---
 ### Testing React Components
@@ -580,7 +580,7 @@ BREAKING CHANGE: It's no longer allowed to omit the '-loader' suffix when using 
 <a target="_ref" href="http://www.softwareishard.com/blog/testing/modern-react-component-testing-with-create-react-app-jest-and-enzyme/">Modern React Component Testing with create-react-app, Jest, and Enzyme</a>
 
 ---
-### More React and Redux Learning Resources
+### More React Learning Resources
 
 * <a target="_ref" href="https://www.fullstackreact.com/30-days-of-react/">FullStack React 30 Days of React and Redux</a>
 
