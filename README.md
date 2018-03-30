@@ -179,11 +179,15 @@ Web Development since the Dawn of the Web <br>
 ### Lab solutions are available here:
 <a target="_git_labs" href="https://github.com/davidmarsland/react-labs/">https://github.com/davidmarsland/react-labs/</a>
 
-Clone this repo into the directory you want to save the course labs:
+ Make a directory `react-training` where you want to save the course labs
+```
+cd react-training
+```
+ Clone this repo into the directory you want to save the course labs:
 ```
 git clone https://github.com/davidmarsland/react-labs/
 ```
-Then
+ Then
 ```
 cd react-labs
 
