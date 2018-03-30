@@ -493,7 +493,11 @@ Please let us know how class is going for you with this mid-class survey.  Comme
 <a target="_reactf" href="https://github.com/azat-co/react-foundation">
 https://github.com/azat-co/react-foundation</a>
 
-### Download zip or clone.
+### Download zip or clone inside your `react-training` directory
+```
+cd react-training
+git clone https://github.com/azat-co/react-foundation.git
+```
 
 ---
 ### Github Tutorials
