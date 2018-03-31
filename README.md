@@ -9,6 +9,8 @@
 <br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
 
+ © 2018 David Marsland 
+
 ---
 ### FastTrack to React Component Development Training
 
@@ -679,6 +681,8 @@ Modify `package.json` to specify 'babel-loader' instead of 'babel' see <a target
 <a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
 ### Thanks, please fill out course eval now, your comments are greatly appreciated!
 #### <a target="_ref" href="https://www.surveymonkey.com/r/KB5TRSS">https://www.surveymonkey.com/r/KB5TRSS</a>
+
+ © 2018 David Marsland 
 
 
 
