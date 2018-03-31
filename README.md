@@ -1,11 +1,13 @@
 ### Welcome to FastTrack to React Training
+<a target="_reactjs" href="https://reactjs.org" alt="react">![react](images/128px-React.svg.png)</a>
+
+
 #### Instructor: David Marsland
 
 #### Macy's SF Schedule: 4/3-4/4/2018 9:30am – 4:30pm
-<br>
-<img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
-<br>
-<a target="_di" href="http://developintelligence.com">DevelopIntelligence.com</a>
+
+![DevelopIntelligence](images/Develop-Intelligence-logo-f.png)
+<a target="_di" href="https://developintelligence.com">https://developintelligence.com</a>
 <br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
 
