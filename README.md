@@ -6,10 +6,8 @@
 
 #### Macy's SF Schedule: 4/3-4/4/2018 9:30am – 4:30pm
 
- ![DevelopIntelligence](images/Develop-Intelligence-logo-f.png)
+ <a target="_di" href="https://developintelligence.com">![DevelopIntelligence](images/Develop-Intelligence-logo-f.png)</a>
 
-<a target="_di" href="https://developintelligence.com">https://developintelligence.com</a>
-<br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
 
  © 2018 David Marsland 
@@ -678,10 +676,9 @@ Modify `package.json` to specify 'babel-loader' instead of 'babel' see <a target
 ---
 ### Congratulations, you are now all React Developers!
 
-<a target="_di" href="http://developintelligence.com"><img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
-</a>
+<a target="_di" href="https://developintelligence.com">![DevelopIntelligence](images/Develop-Intelligence-logo-f.png)<br></a>
 <br>
-<a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
+ <a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
 ### Thanks, please fill out course eval now, your comments are greatly appreciated!
 #### <a target="_ref" href="https://www.surveymonkey.com/r/KB5TRSS">https://www.surveymonkey.com/r/KB5TRSS</a>
 
