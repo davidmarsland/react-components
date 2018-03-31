@@ -6,7 +6,8 @@
 
 #### Macy's SF Schedule: 4/3-4/4/2018 9:30am – 4:30pm
 
-![DevelopIntelligence](images/Develop-Intelligence-logo-f.png)
+ ![DevelopIntelligence](images/Develop-Intelligence-logo-f.png)
+
 <a target="_di" href="https://developintelligence.com">https://developintelligence.com</a>
 <br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-fasttrack/">https://davidmarsland.github.io/react-fasttrack/</a>
