@@ -1,7 +1,6 @@
 ### Welcome to FastTrack to React Training
 <a target="_reactjs" href="https://reactjs.org" alt="react">![react](images/128px-React.svg.png)</a>
 
-
 #### Instructor: David Marsland
 
 #### Macy's SF Schedule: 4/3-4/4/2018 9:30am – 4:30pm
@@ -167,7 +166,9 @@ Web Development since the Dawn of the Web <br>
 
 <a target="_reacttothefuture" href="http://elijahmanor.com/talks/react-to-the-future/dist/#/slide/0/0">React to the Future</a> by Elijah Manor
 
-<a target="_isquared" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/0">Modern Web Development with React and Redux</a> by Mark Erikson
+---
+### Modern Web Development with React and Redux
+<a target="_isquared" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/0">Modern Web Development with React and Redux</a> from isquaredsoftware by Mark Erikson
 
 ---
 ### Naming Conventions
@@ -477,9 +478,10 @@ Please let us know how class is going for you with this mid-class survey.  Comme
 #### Here's the <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog4cartfunctional/build/">Lab Solution Refactored to Functional Components Online</a>  
 
 ---
-### React to the Future: Component LifeCycle
+### Component LifeCycle from isquaredsoftware
 
-<a target="_reacttothefuture" href="http://elijahmanor.com/talks/react-to-the-future/dist/#/slide/2/28">React to the Future: Component LifeCycle</a> by Elijah Manor</a>
+<a target="_isquared" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/27">
+Component LifeCycle</a> from isquaredsoftware
 
 ---
 ### InnerHTML and XSS Attacks
