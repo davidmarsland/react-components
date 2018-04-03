@@ -12,6 +12,23 @@
  © 2018 David Marsland 
 
 ---
+### Introducing your instructor, David Marsland
+<a target="_ref" href="https://www.linkedin.com/in/davidemarsland">https://www.linkedin.com/in/davidemarsland</a>
+<br>
+<br>
+Web Development since the Dawn of the Web <br>
+<a target="_ref" href="https://web.archive.org/web/19970616152144fw_/http://reality.sgi.com:80/mars_corp/"><img src="https://web.archive.org/web/19971210071250im_/http://reality.sgi.com:80/images/sgipowered.gif" />
+<br>Wayback Machine 1997 reality.sgi.com/mars_corp</a>
+
+---
+### Life after SGI
+* Sun Java Certified Developer and Instructor 1998-2004
+* eBay Chief Instructor 2004-2009
+* Sencha Chief Instructor / Training Director 2010-2015
+* Marsland Enterprises Chief Instructor 2015-
+* DevelopIntelligence Senior Technical Instructor 2017-
+
+---
 ### FastTrack to React Component Development Training
 
 The **FastTrack to React Component Development Training** class teaches the essentials of building UI components with React. 
@@ -130,23 +147,7 @@ Jetbrains IDEs, either WebStorm or IntelliJ.
 We'll do more setup in class as needed
 
 ---
-### Introducing your instructor, David Marsland
-<a target="_ref" href="https://www.linkedin.com/in/davidemarsland">https://www.linkedin.com/in/davidemarsland</a>
-<br>
-<br>
-Web Development since the Dawn of the Web <br>
-<a target="_ref" href="https://web.archive.org/web/19970616152144fw_/http://reality.sgi.com:80/mars_corp/"><img src="https://web.archive.org/web/19971210071250im_/http://reality.sgi.com:80/images/sgipowered.gif" />
-<br>Wayback Machine 1997 reality.sgi.com/mars_corp</a>
 
----
-### Life after SGI
-* Sun Java Certified Developer and Instructor 1998-2004
-* eBay Chief Instructor 2004-2009
-* Sencha Chief Instructor / Training Director 2010-2015
-* Marsland Enterprises Chief Instructor 2015-
-* DevelopIntelligence Senior Technical Instructor 2017-
-
----
 ### Hello React World
 
 <p data-height="565" data-theme-id="0" data-slug-hash="jYWpNR" data-default-tab="js,result" data-user="demarsland" data-embed-version="2" data-pen-title="Hello React World" class="codepen">See the Pen <a href="https://codepen.io/demarsland/pen/jYWpNR/">Hello React World</a> by David Marsland (<a href="https://codepen.io/demarsland">@demarsland</a>) on <a href="https://codepen.io">CodePen</a>.</p>
