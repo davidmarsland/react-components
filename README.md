@@ -217,7 +217,7 @@ npm run start
 ### Lab: Set Up React Dev Env and Create React App helloworld
 * Follow the steps in this tutorial to use Create React App for starter files
   <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
-* Then create helloworld app inside <code>react-spike/labs</code> directory
+* Then create helloworld app inside <code>react-training/labs</code> directory
   ```
   create-react-app helloworld
   ```
@@ -302,6 +302,9 @@ npm start
 
 ---
 ### Lab: Thinking In React Filterable Product Table Catalog
+
+#### Here's the app you're about to create: <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog1static/build/">Lab Solution Online</a>
+
 * Read the <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Tutorial</a> up to Step 2
 * Generate project 
 
