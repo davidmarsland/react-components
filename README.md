@@ -107,11 +107,11 @@ Should be greater than 5.2.
 
 Install eslint
 ```
-npm install -g eslint
+npm install -g create-react-app
 ```
 If npm -g doesn't work, you may have permissions issues. A workaround is `npx` which will get from npm if needed and install in local directory.
 ```
-npx install -g eslint
+npx create-react-app helloworld
 ```
   <a target="_ref" href="https://docs.npmjs.com/getting-started/fixing-npm-permissions">Fixing NPM Permissions on Mac or Linux</a>
 
