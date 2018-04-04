@@ -486,8 +486,31 @@ git clone https://github.com/azat-co/react-foundation.git
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">React Foundation Summary</a>
 
 ---
+### React Foundation Course Solutions
+* To try out React Foundation Course Solutions:
+```
+cd react-foundation/code
+npm http-server -g
+http-server
+```
+
+---
 ### React Foundation Course Labs
 * We'll only do the first labs here
+ <a target="_foundation" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md#coding-time-">Coding Time Lab</a>
+
+* To run solution, open a new terminal or powershell
+```
+cd react-foundation/code/react-project
+npm install
+npm run build
+```
+* To try the lab yourself 
+```
+cd react-training/labs
+```
+ Follow steps in <a target="_foundation" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md#coding-time-">Coding Time Lab</a>
+
 * Lab 1 Issues:
 Complete package.json:
 ```
