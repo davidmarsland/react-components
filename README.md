@@ -477,6 +477,13 @@ git clone https://github.com/azat-co/react-foundation.git
 > write modular JavaScript!"
 
 ---
+### Isomorphic Apps and CommonJS Modules
+* Isomorphic apps can render React both server-side (hydrate) or Client Side (render)
+* CommonJS module syntax (`require`) is currently needed for this
+
+* <a target="_ref" href="https://github.com/strongloop-community/babel-example-webpack-isomorphic/blob/master/article.md">Isomorphic Apps Babel Webpack Example</a>
+
+---
 ### React Foundation Course Modules
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md">Module 1 Hello React World</a>
 * <a target="_plunk" href="http://plnkr.co/edit/S2gjlc?p=preview">Changing the State example</a>
