@@ -469,7 +469,7 @@ git clone https://github.com/azat-co/react-foundation.git
 
 * React Foundation Course uses Node CommonJS module
 * Why?  Can use same syntax with server-side Node and Client side
-* <a target="_ref" href="voidcanvas.com/import-vs-require/">voidcanvas.com/import-vs-require/</a>
+* <a target="_ref" href="http://voidcanvas.com/import-vs-require/">voidcanvas.com/import-vs-require/</a>
 * <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/appendix-e/136">React Quickly Appendix E: ES6 Modules</a>
 > Azat Mardan wrote: "Personally, I find ES6 modules confusing. Yes, they’re more eloquent, but Node.js modules won’t change anytime soon. It’s better to have only one style for browser and server JavaScript, so I’ll stick with CommonJS/Node.js style for now. 
 
