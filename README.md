@@ -494,6 +494,10 @@ cd react-foundation
 npm install http-server -g
 http-server
 ```
+ If -g global install doesn't work for you, can use `npx`:
+ ```
+ npx http-server
+ ```
 
 ---
 ### React Foundation Course Labs
