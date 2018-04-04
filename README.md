@@ -536,7 +536,7 @@ Modify `package.json` to specify 'babel-loader' instead of 'babel' see <a target
 
 ---
 ### Styling Components
-* <a target="_ref" href="https://reactjs.org/docs/faq-styling.html">Stying and CSS</a>
+* <a target="_ref" href="https://reactjs.org/docs/faq-styling.html">Styling Components and CSS</a>
 
 * <a target="_ref" href="https://blog.pusher.com/css-modules-react/">CSS Modules in React</a> 
 
