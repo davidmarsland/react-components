@@ -483,6 +483,7 @@ git clone https://github.com/azat-co/react-foundation.git
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-02.md">Module 2 Components</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-03.md">Module 3 User Input</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-04.md">Module 4 Advancing Components</a>
+* Note that `PropTypes` has been moved into the `prop-types` library <a target="_ref" href="https://reactjs.org/docs/typechecking-with-proptypes.html">Typechecking with PropTypes</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">React Foundation Summary</a>
 
 ---
