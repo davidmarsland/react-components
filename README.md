@@ -540,6 +540,8 @@ Modify `package.json` to specify 'babel-loader' instead of 'babel' see <a target
 
 * <a target="_ref" href="https://blog.pusher.com/css-modules-react/">CSS Modules in React</a> 
 
+* <a target="_ref" href="https://react-etc.net/entry/css-modules-arrive-to-create-react-app-cra-in-version-2-0">CSS Modules will arrive in create-react-app Version 2 (Not here yet as of March 2018)</a>
+
 ---
 ### More React Learning Resources
 
