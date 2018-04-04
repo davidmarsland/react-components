@@ -483,6 +483,8 @@ git clone https://github.com/azat-co/react-foundation.git
 
 * <a target="_ref" href="https://github.com/strongloop-community/babel-example-webpack-isomorphic/blob/master/article.md">Isomorphic Apps Babel Webpack Example</a>
 
+* Optional, Advanced: <a target="_ref" href="https://medium.com/@giltayar/native-es-modules-in-nodejs-status-and-future-directions-part-i-ee5ea3001f71">Native ES Modules in NodeJS: Status And Future Directions, Part I</a>
+
 ---
 ### React Foundation Course Modules
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md">Module 1 Hello React World</a>
