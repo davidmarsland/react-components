@@ -491,7 +491,7 @@ git clone https://github.com/azat-co/react-foundation.git
 * To try out React Foundation Course Solutions:
 ```
 cd react-foundation
-npm http-server -g
+npm install http-server -g
 http-server
 ```
 
