@@ -490,7 +490,7 @@ git clone https://github.com/azat-co/react-foundation.git
 ### React Foundation Course Solutions
 * To try out React Foundation Course Solutions:
 ```
-cd react-foundation/code
+cd react-foundation
 npm http-server -g
 http-server
 ```
