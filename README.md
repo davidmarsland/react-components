@@ -535,6 +535,12 @@ Modify `package.json` to specify 'babel-loader' instead of 'babel' see <a target
 <a target="_ref" href="http://www.softwareishard.com/blog/testing/modern-react-component-testing-with-create-react-app-jest-and-enzyme/">Modern React Component Testing with create-react-app, Jest, and Enzyme</a>
 
 ---
+### Styling Components
+* <a target="_ref" href="https://reactjs.org/docs/faq-styling.html">Stying and CSS</a>
+
+* <a target="_ref" href="https://blog.pusher.com/css-modules-react/">CSS Modules in React</a> 
+
+---
 ### More React Learning Resources
 
 * <a target="_ref" href="https://www.fullstackreact.com/30-days-of-react/">FullStack React 30 Days of React and Redux</a>
