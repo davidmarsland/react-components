@@ -229,6 +229,11 @@ npm run start
 * <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/helloworld/build/">Helloworld App Online</a>
 
 ---
+### Debugging React Apps
+
+<a target="_ref" href="https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd">Debugging ReactJS Apps</a>
+
+---
 ### Thinking In React
 <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">https://reactjs.org/docs/thinking-in-react.html</a>
 
